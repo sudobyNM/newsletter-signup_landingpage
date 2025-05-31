@@ -4,7 +4,7 @@ A responsive newsletter sign-up form with email validation and a success message
 
 
 ## Preview
-![Preview of the Newsletter Sign-up Form](assets/images/preview.png)
+![Newsletter Sign-up Form Preview](assets/images/preview.png)
 
 
 ## Features
