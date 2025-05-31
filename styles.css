@@ -8,6 +8,7 @@ body {
   line-height: 1.5;
   color: hsl(234, 29%, 20%);
   font-family: "Roboto", sans-serif;
+  background-color: hsl(233, 25%, 21%);
 }
 
 p {
@@ -17,12 +18,13 @@ p {
 }
 
 .container {
+  background-color: white;
   display: flex;
   flex-direction: row;
   max-width: 800px;
   margin: 2.5rem auto;
   padding: 20px;
-
+  border-radius: 10px;
   justify-content: center;
   gap: 3rem;
 }
@@ -101,7 +103,7 @@ input:invalid {
 
 input:not(:focus) {
   border-color: hsl(0, 4%, 14%);
-  background-color: rgb(249, 247, 247);
+  background-color: white;
 }
 
 .btn {
@@ -120,7 +122,6 @@ input:not(:focus) {
   transform: scale(1.05);
   box-shadow: 0 0px 8px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
-
 }
 
 .success {
@@ -130,7 +131,6 @@ input:not(:focus) {
   margin: 2.5rem auto;
   padding: 30px;
   justify-content: center;
-
 }
 
 .success-icon {
@@ -164,11 +164,13 @@ input:not(:focus) {
     gap: 0.5rem;
     margin-top: 0;
     padding-top: 0;
+    padding-right: 0;
+    padding-left: 0;
   }
 
   .form-container {
     margin-top: 0.1rem;
-    margin-inline: 1rem;
+    margin-inline: 1.5rem;
   }
 
   .image-container img {
@@ -179,7 +181,6 @@ input:not(:focus) {
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     object-fit: cover;
-    flex: 35%;
   }
 
   label {
