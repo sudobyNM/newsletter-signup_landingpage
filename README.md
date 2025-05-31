@@ -2,6 +2,11 @@
 
 A responsive newsletter sign-up form with email validation and a success message component. This project is a solution to the [Frontend Mentor Newsletter sign-up form challenge](https://www.frontendmentor.io/challenges/newsletter-signup-form-with-success-message-3FC1AZbNrv).
 
+
+## Preview
+![Preview of the Newsletter Sign-up Form](assets/images/preview.png)
+
+
 ## Features
 
 - 📱 Fully responsive design
