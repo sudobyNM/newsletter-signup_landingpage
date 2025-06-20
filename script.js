@@ -1,4 +1,5 @@
 const form = document.getElementById("newsletter-form");
+const container = document.querySelector(".container");
 const subsInfoDiv = document.querySelector(".success");
 const formEl = document.querySelector(".form-container");
 const imgContainer = document.querySelector(".image-container");
@@ -15,7 +16,8 @@ form.addEventListener("submit", (e) => {
     alert("Please enter a valid email address.");
     return;
   }
-
+  
+  container.style.display = "none"; // Hide the main container
   formEl.style.display = "none"; // Hide the form container
   imgContainer.style.display = "none"; // Hide the image container
 
@@ -33,7 +35,9 @@ form.addEventListener("submit", (e) => {
   subsInfoDiv.innerHTML = element;
   const dismissButton = document.querySelector(".dismiss-btn");
   dismissButton.addEventListener("click", () => {
-    subsInfoDiv.style.display = "none";
+    subsInfoDiv.style.display = "none"
+    
+    container.style.display = "flex"; // Show the main container again
     formEl.style.display = "initial"; // Show the form container again
     imgContainer.style.display = "initial"; // Show the image container again
   });

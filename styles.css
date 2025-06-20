@@ -128,9 +128,12 @@ input:not(:focus) {
   display: none;
   flex-direction: column;
   max-width: 450px;
-  margin: 2.5rem auto;
+  margin: 4.5rem auto;
   padding: 30px;
   justify-content: center;
+  background-color: white;
+  border-radius: 10px;
+
 }
 
 .success-icon {
@@ -199,6 +202,8 @@ input:not(:focus) {
   .success {
     max-width: 350px;
     padding: 20px;
+    margin-top: 1rem;
+
   }
 
   .dismiss-btn {
